@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="course-selection-1">
+      <header class="navbar">
+        <img class="logo-1-1" alt="" src="./public/logo-1-1@2x.png" />
+
+        <input class="navbar-child" type="text" />
+
+        <img class="navbar-item" alt="" src="./public/ellipse-9@2x.png" />
+      </header>
+      <button class="home">Home</button>
+      <button class="in-progress">In Progress</button>
+      <button class="completed">Completed</button>
+      <div class="frame-parent">
+        <div class="group-child"></div>
+        <div class="tutorcompass-inc-all">
+          @2023 TutorCompass Inc. All Rights Reserved.
+        </div>
+        <div class="group-parent">
+          <button class="about-us-wrapper">
+            <div class="about-us">About us</div>
+          </button>
+          <button class="group-wrapper">
+            <div class="terms-of-service-wrapper">
+              <div class="about-us">Terms of Service</div>
+            </div>
+          </button>
+          <button class="privacy-policy">Privacy Policy</button>
+          <button class="privacy-policy">Cookie Notice</button>
+        </div>
+      </div>
+      <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+      <img
+        class="course-selection-1-child"
+        alt=""
+        src="./public/rectangle-670.svg"
+      />
+
+      <div class="computer-networks">Computer Networks</div>
+      <div class="topics">12 topics</div>
+      <div class="instructors">15+ instructors</div>
+      <div class="choose-your-instructor">Choose Your Instructor</div>
+      <div class="rectangle-parent">
+        <div class="group-item"></div>
+        <div class="live-classes">Live Classes</div>
+        <img
+          class="vector-icon"
+          alt=""
+          src="./public/vector.svg"
+          id="vectorIcon"
+        />
+      </div>
+      <div class="rectangle-group">
+        <div class="group-item"></div>
+        <div class="live-classes">Recorded Classes</div>
+        <img class="vector-icon1" alt="" src="./public/vector.svg" />
+      </div>
+    </div>
+
+    <script>
+      var vectorIcon = document.getElementById("vectorIcon");
+      if (vectorIcon) {
+        vectorIcon.addEventListener("click", function (e) {
+          window.location.href = "./course-selection-21.html";
+        });
+      }
+      </script>
+  </body>
+</html>
